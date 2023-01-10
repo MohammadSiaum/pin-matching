@@ -69,8 +69,9 @@ document.getElementById('verify-pin').addEventListener('click', function(){
     const pinSuccessMessage = document.getElementById('pin-correct');
     const pinUnsuccessMessage = document.getElementById('pin-incorrect');
 
+    // action left 3
     const actionLeft3Message = document.getElementById('action-left-3');
-
+    // left-3
     const left3Field = document.getElementById('left-3');
     const left3String = left3Field.innerText;
     let left3Number = parseInt(left3String); 
